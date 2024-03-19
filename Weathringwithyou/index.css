@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style for banner */
+
+body {
+    font-family: "Edu SA Beginner", "Roboto Flex", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    width: 100%;
+    height: 100dvh;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.image {
+    background-image: url(images/peakpx.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.box-1 span {
+    font-size: 1.3rem;
+}
+
+i { 
+    font-size: 1.3rem;
+    color: orange;
+}
+
+.box-2 span {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.box-3 span {
+    font-size: 1.5rem;
+}
+
+.box-4 {
+    border-top: 0.5px solid #B5BDC0;
+    padding-top: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.title-box {
+    margin-left: 100px;
+}
+
+/* style for gallery */
+
+.gall-parent {
+    background-color: #2C69A0;
+    width: 100%;
+    height: 105dvh;
+}
+
+.gallery {
+    width: 100%;
+    height: 100dvh;
+    background-color: #2C69A0;
+    z-index: 2;
+    box-shadow: 0px -47px 83px 29px #2C69A0,
+    0px 25px 20px -20px #2C69A0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery .gall-img {
+    height: 240px;
+    width: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+/* style for footer */
+footer {
+    height: 500px;
+    width: 100%;
+}
+
+.handel {
+    color: #2C69A0;
+    font-weight: 200;
+    font-size: larger;
+    height: 65px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+
+.handel .handel-2 span a, .handel-2 i {
+    font-size: larger;
+    text-decoration: none;
+    color: #2C69A0;
+}
+
+.handel-1 {
+    margin-left: 25px;
+}
+
+.handel-2 {
+    margin-right: 25px;
+}
+
+.handel-2 i {
+    margin-right: 5px;
+}
+
+.foot-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-2 {
+    height: 425px;
+    width: 300px;
+    background-size: cover;
+}
